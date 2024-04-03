@@ -33,7 +33,7 @@ public class Main {
                         }
                         System.out.println(text.substring(0, 100) + " -> " + maxSize);
                     });
-            threads.git aadd(thread);
+            threads.add(thread);
             thread.start();
         }
 
